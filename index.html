@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178421507-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-178421507-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="le=edge">
@@ -60,7 +68,7 @@
           <a class="nav-link" href="#contact">Contact</a>
         </li>
         <li>
-          <a class="nav-link" href="/img/resume.pdf" target="_blank" style="color: rgb(127, 235, 235); font-weight: bold;">resume</a>
+          <a class="nav-link" href="/img/resume.pdf" target="_blank" style="color: rgb(168, 255, 255); font-weight: bold;">resume</a>
         </li>
       </ul>
       <div class="burger">
@@ -84,31 +92,27 @@
     </div>
   </section>
 
-  <section class="about-area"  id="about">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <div class="about-image py-4 w-75" style="overflow: hidden;">
-            <img src="./img/me1.jpg" alt="About me" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12 about-title">
-          <div class="about-header">
-            <h2 class="text-uppercase pt-5">
-              <span>Let me</span>
-              <span>introduce</span>
-              <span>myself</span>
-            </h2>
-          </div>
-          <div class="paragraph py-4 w-75" style="overflow: hidden;">
-            <p class="para">
-              I study mechatronics engineering at the University of Waterloo. I have a keen interest in design, software development, and data science.
-            </p>
-            <p class="para">
-              I love to broaden my perspective on the world by discovering and learning about new ideas. I'm currently pursuing a minor in cognitive science. Feel free to contact me if you wish to chat more!
-            </p>
-          </div>
-        </div>
+
+
+  <section class="about-area" id="about">
+    <div class="about-section">
+      <div class="about-title">
+        <h2>ABOUT ME</h2>
+        <h6>Let me introduce myself</h6>
+      </div>
+      <div class="description">
+        <p>
+          I study mechatronics engineering at the University of Waterloo. I have a keen interest in design, software development, and data science.
+        </p>
+        <p>
+          I love to stargaze and explore the astronomical world; hence I created my website as a representation of my universe. 
+        </p>
+        <p>
+          I like to broaden my perspective on the world by discovering and learning about new ideas. I'm currently pursuing a minor in cognitive science.
+        </p>
+        <p>
+          Feel free to contact me if you wish to chat about anything!
+        </p>
       </div>
     </div>
   </section>
@@ -129,17 +133,13 @@
           <div class="content">
             <h5 class="title"><span class="color">Software Engineering Intern</span> @ Toyota</h5>
             <li>
-              Upgraded major features in an email relay application by sending alerts through an SMTP server in C# and .NET Core
-            </li>
+              Integrated features for email notification system to process queried XML data from Oracle, SQL Server, and PostgreSQL databases to send email alerts through SMTP, cutting $400,000 in production costs</li>
             <li>
-              Built connections to Oracle, SQL Server, and PostgreSQL databases to read in generated data for the email relay system
-            </li>
+              Reduced manufacturing down time by 6% for optimizing query processing in vehicle inspection database</li>
             <li>
-              Supported Toyota Global Assembly Line Control upgrades by collecting real-time production data in Linux and developing data visualizations
-            </li>
+              Developed and proposed scalable solutions regarding 25,000+ vehicle defects data to Toyota executives and VP</li>
             <li>
-              Proposed and implemented scalable solutions to issues regarding Toyota's Inspection Computer System to executives and VP
-            </li>
+              Supported Toyota Assembly Line Control server upgrade by collecting server performance data in Linux terminal and tracking data slow downs, decreasing development time by 16%</li>
           </div>
         </div>
       </div>
@@ -155,7 +155,7 @@
           <div class="content">
             <h5 class="title"><span class="color">Research Assistant</span> @ University of Waterloo</h5>
             <li>
-              Conducted research on human muscle stress and human muscle contraction by performing non-parametric regression analysis in Python
+              Conducted research on human muscle stress and human muscle contraction by performing non-parametric analysis in Python
             </li>
             <li>
               Assisted in the development of a wearble exoskeleton using light weight sensors and statistical modelling techniques
@@ -182,9 +182,6 @@
             </li>
             <li>
               Designed web platform mock-ups by assessing SEO strategies to increase website traffic by 40%
-            </li>
-            <li>
-              Recreated company logo and marketing materials in Adobe Illustrator and Photoshop
             </li>                
           </div>
         </div>
@@ -207,7 +204,7 @@
           <div class="wrap">
             <h2>Smart Shoe Insole</h2>
             <p>
-              A wearable device that utilizes force sensing resistors to track and analyze gait motion for medical applications. Project is done under Professor Arash Arami at the University of Waterloo.
+              A wearable device that utilizes force sensing resistors to monitor gait motion for Parkinson's Disease. Statistical analysis is done to predict unexpected falls. Project was done under Professor Arash Arami at the University of Waterloo.
             </p>
             <h6>LabVIEW | DAQ | Python</h6>
           </div>
@@ -222,7 +219,7 @@
           <div class="wrap">
             <h2>JobJoe</h2>
             <p>
-              A company search bot that helps employees to find the perks of companies. Questions regarding the company can be asked to the chatbot making it an easy process for users to find their desired company.
+              A job search chatbot app that processes text-based user inputs and return predefined responses. Questions regarding the company can be asked to the chatbot making it an easy process for users to find their desired company.
             </p>
             <h6>Android Studio | Java | IBM Watson API</h6>
             <div class="social">
@@ -239,7 +236,7 @@
           <div class="wrap">
             <h2>Prosthetic Hand</h2>
             <p>
-              A prosthetic hand made with interfaced touch and gyro sensors to perform movements such as grasping, pinching. Implemented a PID motor control algorithm in C to actuate a robotic hand with 93% accuracy.
+              A prosthetic hand made with touch and gyro sensors to perform grasping and pinching movements. Implemented a PID motor control algorithm in C to actuate a robotic hand with 93% accuracy.
             </p>
             <h6>Lego EV3 | C</h6>
             <div class="social">
