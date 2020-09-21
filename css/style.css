@@ -269,6 +269,7 @@ nav{
 }
 
 .about-title h2{
+    padding-top: 1rem;
     font-family: 'Space Mono', monospace;
     letter-spacing: 2px;
     -webkit-text-fill-color: rgb(200, 255, 255);
