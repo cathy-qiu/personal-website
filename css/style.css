@@ -225,29 +225,6 @@ nav{
 .site-main .social a:hover > i{
     color: rgb(144, 218, 218);
 }
-/* .site-buttons {
-    padding-top: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    -webkit-text-fill-color: rgb(200, 255, 255);
-}
-
-.button.primary-button, .button.secondary-button{
-    margin: 0 auto;
-    font-size: 14px;
-    transition: 500ms ease 0s;
-    background: rgba(54, 28, 124, 0.2);
-    border: 1px solid rgb(200, 255, 255);
-    border-radius: 3px;
-    letter-spacing: 2px;
-    -webkit-text-fill-color: rgb(200, 255, 255);
-}
-
-.button.primary-button:hover, .button.secondary-button:hover{
-    background: rgba(220, 255, 255, 0.4);
-    background-clip: padding-box;
-    -webkit-text-fill-color: rgb(26, 99, 99);
-} */
 
 
 
