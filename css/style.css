@@ -16,7 +16,7 @@
 
 ::selection{
     color: #0a031a;
-    background: rgb(174, 255, 255);
+    background: rgb(196, 255, 255);
 }
 
 html{
@@ -241,8 +241,6 @@ nav{
 
 .about-section{
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
 }
 
 .about-title h2{
@@ -264,6 +262,8 @@ nav{
     font-size: 17px;
     -webkit-text-fill-color: #ffffff;
     text-align: center;
+    margin: 0 auto;
+    width: 520px;
 }
 
 
