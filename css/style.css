@@ -16,7 +16,7 @@
 
 ::selection{
     color: #0a031a;
-    background: rgb(196, 255, 255);
+    background: rgb(106, 163, 163);
 }
 
 html{
@@ -375,7 +375,7 @@ li{
  }
 
 span.color{
-    -webkit-text-fill-color: rgb(220, 255, 255);
+    -webkit-text-fill-color: rgb(171, 238, 238);
     background-color: #0a031a;
 }
 
