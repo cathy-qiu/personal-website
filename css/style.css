@@ -124,7 +124,7 @@ nav{
 
 .nav-link{
     font-family: 'Source Sans Pro', sans-serif;
-    color: white;
+    -webkit-text-fill-color: white;
     font-size: medium;
     text-transform: uppercase;
     padding: 1rem;
@@ -276,10 +276,10 @@ nav{
 
 .about-area{
     /* background: #cce6ff; */
-    height: 35rem;
+    height: 10rem;
 }
 .about-section{
-    min-height: 7rem;
+    /* min-height: 7rem; */
     /* height: 100%; */
     width: 100%;
     /* background: rgb(201, 201, 201); */
@@ -296,10 +296,10 @@ nav{
     border-left: 1px solid rgba(206, 239, 255, 0.5);
     backdrop-filter: blur(5px);
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);  */
-    margin-top: 50rem;
+    margin-top: 55rem;
     margin-right: 10rem;
-    padding-top: 8rem;
-    padding-bottom: 6rem;
+    /* padding-top: 8rem; */
+    /* padding-bottom: 6rem; */
     /* float: right; */
 }
 
@@ -382,8 +382,8 @@ nav{
 /* ----------------------------------------------------------------------------------------------------------------- */
 
 
-.skills-area, .experience-area{
-    padding-top: 1rem;
+.skills-area h2{
+    margin-top: 15rem;
 }
 
 .blocks{
@@ -445,8 +445,12 @@ nav{
     -webkit-text-fill-color: var(--dblue);
 }
 
+.experience-area{
+    margin-top: 10rem;
+}
+
 .experience-area .heading{
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
     margin-left: 10rem;
     font-family: 'Space Mono', monospace;
     letter-spacing: 2px;
