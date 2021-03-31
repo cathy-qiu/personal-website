@@ -47,3 +47,22 @@ const navSlide = () =>{
 }
 
 navSlide();
+
+
+$('h1').each(function() {
+
+	var words = $(this).text().split(' ');
+
+	$(this).empty().html(function() {
+
+		for (i = 0; i < words.length; i++) {
+			if (i == 0) {
+				$(this).append('<span>' + words[i] + '</span>');
+			} else {
+				$(this).append(' <span>' + words[i] + '</span>');
+			}
+		}
+	
+	});
+
+});
