@@ -35,7 +35,7 @@ html{
     scroll-behavior: smooth;
 }
 /* 061C27 */
-.mainpg{
+body{
     width: 100%;
     height: 100%;
     background: url(websiteblue7.svg) no-repeat center;
@@ -170,12 +170,16 @@ nav{
     .nav-links{
         width: 50%;
     }
+    .skills-area{
+        padding-top: 8rem;
+    }
 }
 
 @media screen and (max-width: 1200px){
     .nav-links{
         width: 40%;
     }
+    .about-section{height: 45rem;}
 }
 
 @media screen and (max-width: 768px){
@@ -200,6 +204,9 @@ nav{
     }
     .burger{
         display: block;
+    }
+    .skills-area{
+        padding-top: 15rem;
     }
 }
 
@@ -273,11 +280,33 @@ nav{
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 
-
-.about-area{
-    /* background: #cce6ff; */
-    height: 10rem;
+.me{
+    border-radius: 10%;
+    border: 2px solid var(--yellow);
+    width: 13rem;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    margin-bottom: 4rem;
+    /* margin-left: 10rem; */
 }
+
+.title-container img{
+    height: 35px;
+    padding-right: 10px;
+}
+
+.title-container h2{
+    width: calc(100% - 40px); 
+    /* padding-top: 1rem; */
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: var(--dblue);
+    margin: 0px;
+}
+
+
+
 .about-section{
     /* min-height: 7rem; */
     /* height: 100%; */
@@ -296,29 +325,14 @@ nav{
     border-left: 1px solid rgba(206, 239, 255, 0.5);
     backdrop-filter: blur(5px);
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);  */
-    margin-top: 55rem;
+    margin-top: 50rem;
     margin-right: 10rem;
-    /* padding-top: 8rem; */
+    /* height: 25rem; */
+    padding-top: 8rem;
     /* padding-bottom: 6rem; */
     /* float: right; */
 }
 
-.me-img {
-    width: 25%;
-    /* height: 100%; */
-    position: relative;
-    float: left;
-    /* background-color: yellow; */
-    border-collapse: collapse;
-}
-
-.me{
-    border-radius: 10%;
-    border: 2px solid var(--yellow);
-    width: 50%;
-    margin-top: 4rem;
-    margin-left: 10rem;
-}
 
 .about-container{
     width: 75%;
@@ -333,6 +347,7 @@ nav{
 .about{
     margin-right: 10rem;
     margin-left: 1.5rem;
+    /* position: static; */
 }
 
 .title-container{
@@ -344,23 +359,11 @@ nav{
     padding-bottom: 1rem;
 }
 
-.title-container img{
-    height: 35px;
-    padding-right: 10px;
-}
 
-.title-container h2{
-    width: calc(100% - 40px); 
-    /* padding-top: 1rem; */
-    font-family: 'Space Mono', monospace;
-    letter-spacing: 2px;
-    -webkit-text-fill-color: var(--dblue);
-    margin: 0px;
-}
 
 .interests-container{
-    margin-top: 2rem;
-    height: 9rem;
+    padding-top: 20rem;
+    align-items: center;
 }
 
 /* .about-title h6{
@@ -382,9 +385,19 @@ nav{
 
 /* ----------------------------------------------------------------------------------------------------------------- */
 
+.skills-area{
+    margin-top: 10rem;
+}
 
-.skills-area h2{
-    margin-top: 15rem;
+.skills-heading h2{
+    
+    padding-bottom: 1rem;
+    /* margin-left: 10rem; */
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: var(--dblue);
 }
 
 .blocks{
@@ -435,19 +448,8 @@ nav{
     justify-content: center;
 }
 
-.skills-heading h2{
-    padding-top: 8rem;
-    padding-bottom: 1rem;
-    /* margin-left: 10rem; */
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Space Mono', monospace;
-    letter-spacing: 2px;
-    -webkit-text-fill-color: var(--dblue);
-}
-
 .experience-area{
-    margin-top: 10rem;
+    padding-top: 10rem;
 }
 
 .experience-area .heading{
