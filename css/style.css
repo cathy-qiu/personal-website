@@ -91,7 +91,7 @@ header{
 }
 
 a{
-    color: #00ccff;
+    color: #4bcdee;
 }
 
 a:hover{
@@ -431,8 +431,8 @@ nav{
     justify-content: left;
     align-items: left;
     text-align: left;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 15%;
+    /* padding-right: 15rem; */
     /* max-width: 1200px; */
     flex-wrap: wrap;    
     /* z-index: 1; */
