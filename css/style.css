@@ -304,9 +304,7 @@ nav{
     width: 13rem;
     align-items: center;
     justify-content: center;
-    /* position: relative; */
     margin-bottom: 4rem;
-    /* margin-left: 10rem; */
 }
 
 .title-container img{
@@ -316,7 +314,6 @@ nav{
 
 .title-container h3{
     width: calc(100% - 40px); 
-    /* padding-top: 1rem; */
     font-family: 'Space Mono', monospace;
     letter-spacing: 2px;
     -webkit-text-fill-color: var(--dblue);
@@ -326,29 +323,10 @@ nav{
 
 
 .about-section{
-    /* min-height: 7rem; */
-    /* height: 100%; */
     width: 100%;
-    /* background: rgb(201, 201, 201); */
-    /* background: linear-gradient(
-        to right bottom,
-        rgba(6, 28, 39, 0.3),
-        rgba(255, 255, 255, 0.1)
-    );
-    border-radius: 1rem; */
-    /* z-index: 2; */
-    /* 166, 227, 255 */
-    /* border: 1.5px solid rgb(190, 212, 223); */
-    /* border-top: 1px solid rgba(206, 239, 255, 0.5);
-    border-left: 1px solid rgba(206, 239, 255, 0.5);
-    backdrop-filter: blur(5px);
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);  */
     margin-top: 50%;
     margin-right: 10rem;
-    /* height: 25rem; */
     padding-top: 8rem;
-    /* padding-bottom: 6rem; */
-    /* float: right; */
 }
 
 
@@ -365,7 +343,6 @@ nav{
 .about{
     margin-right: 10rem;
     margin-left: 1.5rem;
-    /* position: static; */
 }
 
 .title-container{
@@ -377,28 +354,18 @@ nav{
     padding-bottom: 1rem;
 }
 
-
-
 .interests-container{
     padding-top: 20rem;
     align-items: center;
 }
 
-/* .about-title h6{
+.about-title h6{
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-text-fill-color: var(--dblue);
-    font-size: 20px;
-} */
+    font-weight: bold;
+    font-size: large;
+}
 
-
-
-/* 
-.about-list{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: medium;
-    -webkit-text-fill-color: var(--dblue);
-
-} */
 
 
 /* ----------------------------------------------------------------------------------------------------------------- */
@@ -420,15 +387,14 @@ nav{
     font-size: small;
     -webkit-text-fill-color: var(--dblue);
     margin-left: 7px;
-    /* margin-right: 7px; */
     margin-top: 11px;
 }
 
-.skills-area h5{
-    /* text-decoration: underline var(--orange) 2px; */
+.row h6{
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-text-fill-color: var(--dblue);
     font-weight: bold;
+    font-size: large;
 }
 
 .blocks .row{
@@ -439,9 +405,7 @@ nav{
     text-align: left;
     padding-left: 15%;
     padding-right: 15%;
-    /* max-width: 1200px; */
     flex-wrap: wrap;    
-    /* z-index: 1; */
 }
 
 .badge-dark{
@@ -451,36 +415,6 @@ nav{
 .badge-secondary{
     background-color: #fffff0;
 }
-
-.blocks .skill-block{
-    /* position: relative; */
-    width: 165px;
-    height: 385px;
-    margin: 30px;
-    /* box-shadow: 20px 20px 30px rgba(255, 238, 83, 0.5); */
-    border-radius: 15px;
-    /* background: rgba(255, 252, 102, 0.2); */
-    /* background: var(--lyellow); */
-    /* overflow: hidden;
-    display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    /* border: 2px solid var(--dorange); */
-}
-
-.blocks .skill-block .skill-content{
-    padding: 20px;
-    text-align: center;
-    transition: 0.5s;
-}
-
-.blocks .skill-block .skill-content h6{
-    font-family: 'Source Sans Pro', sans-serif;
-    text-decoration: underline var(--orange) 2px;
-}
-
 
 /* ----------------------------------------------------------------------------------------- */
 
@@ -503,12 +437,9 @@ nav{
 }
 
 details > summary{
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* width: 70rem; */
     padding: 3px;
     cursor: pointer;
-    /* list-style: none; */
+    outline: none;
 }
 
 .role-content{
@@ -520,11 +451,12 @@ details > summary{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: small;
     -webkit-text-fill-color: var(--dblue);
-    margin: 6px 0px 2px 1px;
+    margin: 6px 0px 4px 1px;
 }
 .role-content > li{
-    /* margin: 3px 0; */
+    padding-left: 2px;
     font-size: medium;
+    padding-bottom: 2px;
 }
 
 /* ------------------------------------------------------------------------------- */
@@ -540,7 +472,6 @@ details > summary{
 }
 
 .experience-area .heading{
-    /* padding-top: 8rem; */
     text-align: center;
     font-family: 'Space Mono', monospace;
     letter-spacing: 2px;
@@ -548,7 +479,6 @@ details > summary{
 }
 
 .experience-area h5{
-    /* text-decoration: underline var(--orange) 2px; */
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-text-fill-color: var(--dblue);
     font-weight: bold;
@@ -562,7 +492,6 @@ details > summary{
 }
 
 .experience-area h6.mb3{
-    /* padding-bottom: 20rem; */
     margin-bottom: 0rem;
 }
 
@@ -624,11 +553,6 @@ span.color{
     padding: 20px;
 }
 
-/* .portfolio-img{
-    width: 500px;
-} */
-
-
 .portfolio-img img{
     border-radius: 1.4%;
     height: 15rem;
@@ -637,8 +561,6 @@ span.color{
 
 .portfolio-img{
     position:relative;
-    /* width:100%; */
-    /* list-style-type: none; */
     justify-content: center;
     align-items: center;
     padding-right: 21rem;
@@ -646,7 +568,6 @@ span.color{
   
 .portfolio-img img {
     position:absolute;
-    /* left:0; */
     -webkit-transition: opacity 500ms ease-in-out;
     -moz-transition: opacity 500ms ease-in-out;
     -o-transition: opacity 500ms ease-in-out;
@@ -674,7 +595,6 @@ span.color{
 
 .portfolio-tools a > i{
     font-size: small;
-    /* margin-right: 6rem; */
     color: var(--dblue);
     transition: color 450ms;
 }
@@ -690,26 +610,21 @@ span.color{
 }
 
 .blocks1{
-    /* position: relative; */
     display: flex; 
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* max-width: 1200px; */
     flex-wrap: wrap;
     z-index: 1;
 }
 
 .blocks1 .skill-block1{
-    /* position: relative; */
     width: 330px;
     height: 15rem;
     margin: 10px;
     border-radius: 15px;
     padding-bottom: 30rem;
-
 }
-
 
 img:hover{
     transform: scale(1.03);
