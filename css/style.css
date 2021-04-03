@@ -503,7 +503,7 @@ nav{
 }
 
 details > summary{
-    display: flex;
+    /* display: flex; */
     /* justify-content: space-between; */
     /* width: 70rem; */
     padding: 3px;
