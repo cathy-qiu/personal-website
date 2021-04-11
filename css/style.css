@@ -401,8 +401,8 @@ nav{
     justify-content: left;
     align-items: left;
     text-align: left;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
     flex-wrap: wrap;    
 }
 
@@ -417,8 +417,8 @@ nav{
 /* ----------------------------------------------------------------------------------------- */
 
 .experiences > details{
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 27%;
+    padding-right: 27%;
 }
 
 .experience-area .role{
