@@ -1,0 +1,139 @@
+.skills-area{
+    margin-top: 8rem;
+}
+
+.skills-heading h3{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: var(--dblue);
+}
+
+.skills-area p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: small;
+    -webkit-text-fill-color: #fffff0;
+    margin-left: 7px;
+    margin-top: 11px;
+}
+
+.row h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-fill-color: var(--dblue);
+    font-weight: bold;
+    font-size: large;
+}
+
+.blocks .row{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex-wrap: wrap;    
+}
+
+.badge-dark{
+    background-color: #575757;
+}
+
+.badge-secondary{
+    background-color: #949494;
+}
+
+.experiences > details{
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+.experience-area .role{
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-fill-color: var(--dblue);
+    font-weight: bold;
+    font-size: large;
+    margin-top: 11px;
+}
+
+.role-content {
+    font-family:  'Space Mono', monospace;
+    font-size: small;
+    -webkit-text-fill-color: var(--dblue);
+}
+
+details > summary{
+    padding: 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+.role-content{
+    padding-left: 1rem;
+}
+
+
+.role-content > p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: small;
+    -webkit-text-fill-color: var(--dblue);
+    margin: 6px 0px 4px 1px;
+}
+.role-content > li{
+    padding-left: 2px;
+    font-size: medium;
+    padding-bottom: 2px;
+}
+
+.row{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-area{
+    padding-top: 10rem;
+}
+
+.experience-area .heading{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: var(--dblue);
+    padding-bottom: 1.7rem;
+}
+
+.experience-area h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-fill-color: var(--dblue);
+    font-weight: bold;
+}
+
+.experience-area .heading h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-fill-color: var(--dblue);
+    font-size: medium;
+    padding-bottom: 30px;
+}
+
+.experience-area h6.mb3{
+    margin-bottom: 0rem;
+}
+
+.experience-area .skills-date{
+    display: flex;
+}
+
+.experience-area p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: small;
+    -webkit-text-fill-color: #fffff0;
+    margin-right: 7px;
+}
+
+.experience-area .date{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    -webkit-text-fill-color: var(--dblue);
+}

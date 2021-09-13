@@ -1,0 +1,105 @@
+span.color{
+    -webkit-text-fill-color: rgb(171, 238, 238);
+    background-color: #0a031a;
+}
+
+.projects-area{
+    padding-top: 3rem;
+}
+
+.project-title{
+    padding-top: 7rem;
+    -webkit-text-fill-color: var(--dblue);
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.project-title h3{
+    font-family: 'Space Mono', monospace;
+}
+
+.project-title h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+}
+
+.portfolio-img img{
+    border-radius: 1.4%;
+    height: 15rem;
+    position:absolute;
+    -webkit-transition: opacity 500ms ease-in-out;
+    -moz-transition: opacity 500ms ease-in-out;
+    -o-transition: opacity 500ms ease-in-out;
+    transition: opacity 500ms ease-in-out;
+}
+
+.portfolio-img{
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    padding-right: 21rem;
+}
+
+.portfolio-img .p{
+    position: relative;
+}
+  
+.portfolio-img img.top:hover {
+    opacity:0;
+}
+
+.portfolio-tools p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: small;
+    -webkit-text-fill-color: #fffff0;
+}
+
+.portfolio-tools{
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.portfolio-tools a{
+    font-size: medium;
+    margin-left: 1.4px;
+    -webkit-text-fill-color: #575757;
+    transition: color 450ms;
+}
+.portfolio-tools a:hover{
+    -webkit-text-fill-color: #949494;
+}
+
+.portfolio-desc{
+    margin-top: 18rem;
+    width: 300px;
+    position: absolute;
+    text-align: left;
+}
+
+.blocks1{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.blocks1 .skill-block1{
+    width: 330px;
+    height: 15rem;
+    margin: 10px;
+    border-radius: 15px;
+    padding-bottom: 26rem;
+}
+
+img:hover{
+    transform: scale(1.03);
+    transition: 500ms ease 0s;
+}
+.img1:hover{
+    transform: scale(1.03);
+}
+.img2:hover{
+    transform: scale(1.03);
+}

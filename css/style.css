@@ -36,14 +36,6 @@ html{
     scroll-behavior: smooth;
 }
 /* 061C27 */
-body{
-    width: 100%;
-    height: 100%;
-    background: url(websiteblue7.svg) no-repeat center;
-    background-size: cover;
-    background-color: #f7f6ef;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-}
 
 p{
     font-family: 'Source Sans Pro', sans-serif;
@@ -265,16 +257,15 @@ nav{
 		transform: translatey(0px);
 	}
 }
-
+/* 
 .site-main{
     position: absolute;
-    top: 45%;
+    top: 38%;
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
 	transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
-    
 }
 
 .site-main .title-text{
@@ -286,7 +277,8 @@ nav{
 
 .site-main .social a{
     font-size: 20px;
-    margin-right: 1.3rem;
+    margin-right: .6rem;
+    margin-left: .6rem;
     -webkit-text-fill-color: #c6f2fd;
     transition: color 400ms;
 }
@@ -295,10 +287,16 @@ nav{
     -webkit-text-fill-color: var(--lyellow);
 }
 
+.site-main .para{
+    margin-top: 1rem;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-fill-color: #ffffff;
+} */
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 
-.me{
+/* .me{
     border-radius: 5%;
     border: 2px solid var(--blue);
     width: 13rem;
@@ -330,10 +328,8 @@ nav{
 
 .about-container{
     width: 75%;
-    /* height: 100%; */
     position: relative;
     float: right;
-    /* background-color: yellow; */
     border-collapse: collapse;
     
 }
@@ -362,13 +358,13 @@ nav{
     -webkit-text-fill-color: var(--dblue);
     font-weight: bold;
     font-size: large;
-}
+} */
 
 
 
 /* ----------------------------------------------------------------------------------------------------------------- */
 
-.skills-area{
+/* .skills-area{
     margin-top: 8rem;
 }
 
@@ -412,11 +408,11 @@ nav{
 
 .badge-secondary{
     background-color: #949494;
-}
+} */
 
 /* ----------------------------------------------------------------------------------------- */
 
-.experiences > details{
+/* .experiences > details{
     padding-left: 27%;
     padding-right: 27%;
 }
@@ -456,11 +452,11 @@ details > summary{
     padding-left: 2px;
     font-size: medium;
     padding-bottom: 2px;
-}
+} */
 
 /* ------------------------------------------------------------------------------- */
 
-.row{
+/* .row{
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -510,13 +506,13 @@ details > summary{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: medium;
     -webkit-text-fill-color: var(--dblue);
-}
+} */
 
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
 
 
-span.color{
+/* span.color{
     -webkit-text-fill-color: rgb(171, 238, 238);
     background-color: #0a031a;
 }
@@ -542,7 +538,7 @@ span.color{
 }
 
 .portfolio-img img{
-    /* border-radius: 1.4%; */
+    border-radius: 1.4%;
     height: 15rem;
     position:absolute;
     -webkit-transition: opacity 500ms ease-in-out;
@@ -620,7 +616,7 @@ img:hover{
 }
 .img2:hover{
     transform: scale(1.03);
-}
+} */
 
 
 /* --------------------------------------------------------------------------------------- */
@@ -694,10 +690,6 @@ footer.footer-area{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.footer-area .para{
-    font-size: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
 
 .footer-area .logo{
     width: 30px;
