@@ -84,7 +84,7 @@ header{
 }
 
 a{
-    -webkit-text-fill-color: #4bcdee;
+    -webkit-text-fill-color: #00ccff;
 }
 
 .menu a{
@@ -285,7 +285,7 @@ nav{
 }
 
 .site-main a{
-    font-size: 20px;
+    font-size: 17px;
     margin-right: .6rem;
     margin-left: .6rem;
     -webkit-text-fill-color: #c6f2fd;
@@ -533,14 +533,16 @@ span.color{
 }
 
 .projects-area{
-    padding-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .project-title{
-    -webkit-text-fill-color: var(--dblue);
-    letter-spacing: 2px;
     text-align: center;
-    padding-bottom: 4rem;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: var(--dblue);
+    padding-bottom: 2rem;
 }
 .project-title h3{
     font-family: 'Space Mono', monospace;
