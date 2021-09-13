@@ -301,9 +301,10 @@ nav{
     border-radius: 5%;
     border: 2px solid var(--blue);
     width: 13rem;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 4rem;
+    /* align-items: center;
+    justify-content: center; */
+    margin-bottom: 2rem;
+    margin-right: 2rem;
 }
 
 .title-container img{
@@ -311,8 +312,9 @@ nav{
     padding-right: 10px;
 }
 
-.title-container h3{
+.title-container h5{
     width: calc(100% - 40px); 
+    text-align: center;
     font-family: 'Space Mono', monospace;
     letter-spacing: 2px;
     -webkit-text-fill-color: var(--dblue);
@@ -320,25 +322,19 @@ nav{
 }
 
 .about-section{
-    width: 100%;
+    /* width: 80%; */
+    margin-left: 10rem;
     margin-right: 10rem;
-    padding-top: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    /* align-items: center; */
 }
-
 
 .about-container{
     width: 75%;
-    /* height: 100%; */
     position: relative;
     float: right;
-    /* background-color: yellow; */
     border-collapse: collapse;
-    
-}
-
-.about{
-    margin-right: 10rem;
-    margin-left: 1.5rem;
 }
 
 .title-container{
@@ -370,7 +366,7 @@ nav{
     margin-top: 8rem;
 }
 
-.skills-heading h3{
+.skills-heading h5{
     padding-bottom: 2rem;
     text-align: center;
     font-family: 'Space Mono', monospace;
@@ -381,7 +377,7 @@ nav{
 .skills-area p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: small;
-    -webkit-text-fill-color: #fffff0;
+    -webkit-text-fill-color: #232324;
     margin-left: 7px;
     margin-top: 11px;
 }
@@ -390,12 +386,9 @@ nav{
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-text-fill-color: var(--dblue);
     font-weight: bold;
-    font-size: large;
 }
 
 .blocks .row{
-    position: relative;
-    display: flex;
     justify-content: left;
     align-items: left;
     text-align: left;
@@ -405,11 +398,11 @@ nav{
 }
 
 .badge-dark{
-    background-color: #575757;
+    background-color: #fff8d7;
 }
 
 .badge-secondary{
-    background-color: #949494;
+    background-color: var(--blue);
 }
 
 /* ----------------------------------------------------------------------------------------- */
@@ -465,7 +458,7 @@ details > summary{
 }
 
 .experience-area{
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .experience-area .heading{
@@ -482,11 +475,17 @@ details > summary{
     font-weight: bold;
 }
 
+.experience-area .heading h5{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    -webkit-text-fill-color: var(--dblue);
+}
+
 .experience-area .heading h6{
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-text-fill-color: var(--dblue);
     font-size: medium;
-    padding-bottom: 30px;
 }
 
 .experience-area h6.mb3{
@@ -500,7 +499,7 @@ details > summary{
 .experience-area p{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: small;
-    -webkit-text-fill-color: #fffff0;
+    -webkit-text-fill-color: #232324;
     margin-right: 7px;
 }
 
