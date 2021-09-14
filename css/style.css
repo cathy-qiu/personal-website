@@ -333,8 +333,8 @@ nav{
     /* width: 80%; */
     margin-left: 10rem;
     margin-right: 10rem;
-    margin-top: 7rem;
-    margin-bottom: 10rem;
+    margin-top: 5rem;
+    padding-bottom: 10rem;
     /* align-items: center; */
 }
 
